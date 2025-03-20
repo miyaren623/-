@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スタイリッシュ コーヒーショップ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .search-bar {
+            margin-left: 20px;
+        }
+        .section {
+            padding: 20px;
+        }
+        .coffee-item {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .button {
+            background-color: white;
+            color: red;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>スタイリッシュ コーヒーショップ</h1>
+        <input type="text" class="search-bar" placeholder="Search coffee">
+    </div>
+
+    <div class="section">
+        <h2>おすすめのコーヒー</h2>
+        <div class="coffee-item">
+            <h3>カプチーノ</h3>
+            <p>ハートのラテアートが施されたカプチーノ。</p>
+        </div>
+        <div class="coffee-item">
+            <h3>アイスキャラメルマキアート</h3>
+            <p>キャラメルソースがかかったアイスキャラメルマキアート。</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>プロモーション</h2>
+        <div>
+            <h3>1つ買うと1つ無料</h3>
+            <p>今週はすべてのエスプレッソドリンクの特別オファーをお楽しみください。</p>
+        </div>
+        <div>
+            <h3>会員は20%オフ</h3>
+            <p>今すぐ登録して、初回購入時に20%割引をゲット。</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <button class="button">メニュー</button>
+        <button class="button">カート</button>
+    </div>
+</body>
+</html>
